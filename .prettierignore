@@ -4,7 +4,8 @@ dist
 online_dist
 public
 .history
-#.eslintrc.js
-#.prettierrc.js
+.eslintrc.cjs
+.prettierrc.cjs
+.stylelintrc.cjs
 components.d.ts
 auto-imports.d.ts

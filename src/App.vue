@@ -120,8 +120,7 @@
 
 <template>
   <div ref="containerRef" class="img-box">
-    <el-button class="tool-btn" :icon="Edit" @click="showModal = true">工具</el-button>
-    <el-button class="tool-btn" :icon="Edit" @click="showModal = true">工具</el-button>
+    <el-button class="tool-btn" :icon="Edit" @click="showModal = true">工具1</el-button>
 
     <img ref="jpg" alt="" class="img" draggable="true" :src="imgFile" />
 
