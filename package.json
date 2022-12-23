@@ -57,6 +57,7 @@
       "yarn lint",
       "prettier --write",
       "git add"
-    ]
+    ],
+    "*.{htm,html,css,sss,less,scss,sass}": "stylelint --fix"
   }
 }
