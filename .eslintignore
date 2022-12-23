@@ -7,5 +7,6 @@ public
 .eslintrc.cjs
 .prettierrc.cjs
 .stylelintrc.cjs
+commitlint.config.cjs
 components.d.ts
 auto-imports.d.ts
