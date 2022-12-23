@@ -1,0 +1,10 @@
+node_modules
+dist
+online_dist
+index.html
+public
+.history
+#.eslintrc.js
+#.prettierrc.js
+components.d.ts
+auto-imports.d.ts
