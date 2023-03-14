@@ -226,5 +226,6 @@ module.exports = {
     defineEmits: 'readonly',
     defineExpose: 'readonly',
     withDefaults: 'readonly',
+    ref: 'true'
   },
 }
