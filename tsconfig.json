@@ -9,17 +9,20 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
     "allowJs": true,
     "baseUrl": "./",
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "paths": {
-      "@": ["src"]
+      "@/*": ["src/*"],
+      "_components/*": ["src/components/*"],
+      "_assets/*": ["src/assets/*"],
+      "_views/*": ["src/views/*"],
+      "_pinia/*": ["src/pinia/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "types/**/*.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "types/**/*.d.ts", "auto-imports.d.ts", "components.d.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
